@@ -1,10 +1,10 @@
 export default function Footer() {
     return (
-        <footer class="page-footer">
-            <div class="footer-copyright">
-                <div class="container">
+        <footer className="page-footer teal lighten-1">
+            <div className="footer-copyright">
+                <div className="container">
                     © {new Date().getFullYear()} Copyright Text
-                    <a class="grey-text text-lighten-4 right" href="#">Movie</a>
+                    <a className="grey-text text-lighten-4 right" href="#">Movie</a>
                 </div>
             </div>
         </footer>
